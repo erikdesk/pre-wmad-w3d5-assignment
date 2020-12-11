@@ -6,6 +6,10 @@ let numbers = ['1', '2', '3', '4'];
 
 const addTheLast = function (arr1, arr2) {
 
+    arr1.push(arr2.pop());
+    console.log(arr1);
+    console.log(arr2);
+
 };
 
 addTheLast(food, numbers);

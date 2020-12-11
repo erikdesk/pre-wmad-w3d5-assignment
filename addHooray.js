@@ -6,6 +6,11 @@ let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
 const addHooray = function (arr) {
 
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i] + "HOORAY";
+    }
+    console.log(arr);
+
 };
 
 addHooray(food);
